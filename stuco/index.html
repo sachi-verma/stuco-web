@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <meta name="author" content="frcrce">
+  <meta name="keyword" content="Engineering College in mumbai">
+  <meta name="description" content="Fr. Conceicao Rodrigues College of Engineering (CRCE) is a engineering college in Mumbai, India. It is located at Bandstand in Bandra (West). ">
+  <title>Students' Council CRCE</title>
+  <link rel="shortcut icon" href="static/stuco/images/titleicon.ico">
+  <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Federant" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+
+  <link rel="stylesheet" href="static/stuco/styles/style.css">
+  <link rel="stylesheet" href="static/stuco/styles/teaminfo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/lumen/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="static/stuco/styles/style_common.css" />
+  <link rel="stylesheet" type="text/css" href="static/stuco/styles/style9.css" />
+  <link rel="stylesheet" type="text/css" href="static/stuco/styles/style5.css" />
+
+  <script type="text/javascript" href="static/stuco/landing.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+  <!--<script type="text/javascript">
+    jQuery(function($) {
+      if (/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())) {
+        $('body').css('opacity', '1.0') 
+      }
+    })
+  </script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: #d7cec7;">
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-custom fixed-top main-navbar">
+    <h3 class="navbar-brand"><img src="static/stuco/images/logo.jpg" style="height: 30px;"></h3>
+    <h3 class="navbar-brand" style="padding-top: 5px;">Students' Council</h3>
+    <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#nav">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="nav">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home"><center>Home</center></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#info"><center>About Us</center></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team"><center>Our Team</center></a>
+        </li>
+        <!--
+        <center>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Events
+            </a>
+            <div class="dropdown-menu bg-dark animate slideIn">
+              <a class="dropdown-item" href="#cul"><center>Cultural</center></a>
+              <a class="dropdown-item" href="#tech"><center>Technical</center></a>
+              <a class="dropdown-item" href="#sport"><center>Sports</center></a>
+            </div>
+          </li>
+        </center>
+        -->
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><center>Contact Us</center></a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!--<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>-->
+
+  <div id="home">
+  <div class="land">
+    <h1 class="phead" style="font-family: Oswald; font-size: min(9vw, 60px);display: table-cell; vertical-align: middle; color: white;">
+    <!--  <hr class=ln style="background-color: white; margin-top: 2%; margin-bottom: 2%; width: 25%; height: 2px;"><hr class=ln style="background-color: white; margin-top: 2%; margin-bottom: 2%; width: 50%; height: 4px;"> -->
+      <div id=title>
+        FR. CRCE<br><br><br>
+        STUDENTS' COUNCIL<br><br><br>
+        <p style="font-size: min(5vw, 30px);">2020-21</p>
+      </div>
+    <!--  <hr class=ln style="background-color: white; margin-top: 2%; margin-bottom: 2%; width: 50%; height: 4px;"><hr class=ln style="background-color: white; margin-top: 2%; margin-bottom: 2%; width: 25%; height: 2px;"> -->
+    </h1>
+  </div>
+</div>
+<!--<script>
+  (function($) {
+	"use strict"
+
+	///////////////////////////
+	// Preloader
+	$(window).on('load', function() {
+		$("#loader").delay(600).fadeOut();
+	});
+  </script>
+  
+  </body>-->
+
+<div>
+<br><br id="info"><br>
+  <p style="background-color: black, padding: 0px; margin: 0px;" ></p>
+  <section class="bg-overlay" style="background-color: black; height: auto;">
+    <div class="container" style=" margin-right: auto; margin-left: auto;">
+      <div class="parallax">
+      <br><br>
+      <h3 class="section-title text-center" style="font-size: 44px; color: white;"><b>About Us</b></h3><hr style="background-color: white;">
+      <div class="row align-items-center">
+        <!--<div class="col-12 col-md-4" style="margin-left: auto; margin-right: auto;">
+         <img src="static/stuco/images/logo.jpg" id="ab" width="250px">
+        </div>-->
+        <div class="col-12 col-md-8" style=" margin-right: auto; margin-left: auto;">
+          <p class="abt projects-description text-center" style="font-size: 20px; color: white;">
+            &#10077;  Students’ Council is the apex student body at Fr.Conceicao Rodrigues College Of Engineering.<br><br>
+            The raison d’etre of the council is to be a formal communication channel between the students, faculties and the administration. While it seeks to address any queries and resolve issues that the students and/or admin may face, the Student Council also relentlessly strives towards the enrichment of the campus experience.<br><br>
+            As a team, we are 21 players with one heartbeat who take pride in being the voice and strength of a community of 1000+ students. We don't look for a reason to help others. We work for a cause, not for applause.&#10078;
+            <br><br><br><br>
+          </p>
+        </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<br id="team">
+</div><!--<p id="team"></p>-->
+  <div class="container-fluid" style="padding-top:40px; padding-bottom:70px; margin-left: 0px; padding: 0px;">
+    <section class="bg-grey" id="blog">
+      <div class="container">
+        <hr><br>
+        <h2 class="phead section-title text-center" style="font-size: min(6vw, 44px); margin-bottom: 20px; text-shadow: 2px 2px #b30000;"><b>OUR TEAM</b></h2><br>
+        <p class="bearer section-lead text-center" style="font-size: min(4vw,26px);">“The strength of the team is each individual member. The strength of each member is the team.”</p>
+        <hr>
+        <br>
+        <center>
+          <br>
+          <p class="phead" style="font-family: Oswald; font-size: min(5vw,40px); font-weight: 400;"><u>The Senior Council</u></p>
+        </center>
+        <div class="section-body">
+          <div class="row col-spacing">
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;" >
+                <div class="card-body">
+                  <div class="bearer" style="color: #ff1a1a;"><h4>Kevin Ruffin</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">PRESIDENT</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/pres.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"The Godfather"</h2>
+                      <p>
+                        <b>BRANCH</b>: BE-Computers<br><b>CONTACT NO</b>: 9604003680<br><b>EMAIL ID</b>: kevinruffin1505@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+                  <div class="bearer" style="color: #ff1a1a;"><h4>Ninad shetty</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">GENERAL SECRETARY</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/gsec.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"THE NUMERO UNO"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-IT<br><b>CONTACT NO</b>: 8451941231<br><b>EMAIL ID</b>: ninadshetty71@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+                  <div class="bearer" style="color: #ff1a1a;"><h4>Anu Thomas</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">CULTURAL SECRETARY</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/cult.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Princess Consuela"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-IT<br><b>CONTACT NO</b>: 7738456280<br><b>EMAIL ID</b>: anu@tmail.in
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+                  <div class="bearer" style="color: #ff1a1a;"><h4>Saloni Khanna</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">EDITORIAL SECRETARY</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/edi.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Beyond Bookish"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-IT<br><b>CONTACT NO</b>: 8796123583<br><b>EMAIL ID</b>: salonikhanna9@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+                  <div class="bearer" style="color: #ff1a1a;"><h4>Yameen Ajani</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">TECHNICAL SECRETARY</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/tech.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"The Source Code"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-Computers<br><b>CONTACT NO</b>: 9167293111<br><b>EMAIL ID</b>: yameenajani@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+                  <div class="bearer" style="color:  #ff1a1a;"><h4>Joshua Godinho</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">SPORTS SECRETARY[BOYS]</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/sprtb.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Fast and Curious"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-Computers<br><b>CONTACT NO</b>: 9769496112<br><b>EMAIL ID</b>: joshuagodinho2010@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color:#99ffff;">
+                <div class="card-body">
+
+                  <div class="bearer" style="color:  #ff1a1a;"><h4>Felin Patel</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">SPORTS SECRETARY[GIRLS]</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/sprtg.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Sweetest Pea in the Pod"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-Electronics<br><b>CONTACT NO</b>: 7045465080<br><b>EMAIL ID</b>: felinpatel7@gmail.com 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color:#99ffff;">
+                <div class="card-body">
+
+                  <div class="bearer" style="color:  #ff1a1a;"><h4>Andrew Norohna</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">PUBLIC RELATIONS HEAD</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/pr.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"The Syndicate"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-Production<br><b>CONTACT NO</b>: 9820709199<br><b>EMAIL ID</b>: andrew7330@hotmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+
+                  <div class="bearer" style="color:  #ff1a1a;"><h4>Ayaan Shaikh</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">MARKETING HEAD</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/mar.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Unorthodox Jukebox"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-IT<br><b>CONTACT NO</b>: 7506141217<br><b>EMAIL ID</b>: 17.ayaan@gmail.com 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4" style="margin-left: auto; margin-right: auto;">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+
+                  <div class="bearer" style="color:  #ff1a1a;"><h4>Ashish Bandarkar</h4></div>
+                  <div class="card-subtitle mb-2 post" style="color: #000c1a;">ALUMNI AND MARKETING HEAD</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/alum.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Dynamic Dealmaker"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-IT<br><b>CONTACT NO</b>: 9820394946<br><b>EMAIL ID</b>: ashishbandarkar37@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4" style="margin-right: auto; margin-left: auto;">
+
+              <article class="card posts" style="background-color: #99ffff;">
+                <div class="card-body">
+
+                  <div class="bearer" style="color:  #ff1a1a;"><h4>Gautami Thakur</h4></div>
+                  <div class="card-subtitle mb-2 post"style="color: #000c1a;">DESIGN HEAD</div>
+                  <div class="view view-ninth" style="background-color: #d7cec7;">
+                    <img src="static/stuco/images/council2/deshd.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                    <div class="mask mask-1"></div>
+                    <div class="mask mask-2"></div>
+                    <div class="content">
+                      <h2>"Chaotically Creative"</h2>
+                      <p>
+                        <b>BRANCH</b>: TE-Electronics<br><b>CONTACT NO</b>: 9833313047<br><b>EMAIL ID</b>: grthakur18@gmail.com 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br><br>
+        <center>
+          <center>
+            <p class="phead" style="font-family: Oswald; font-size: min(5vw,40px); font-weight: 400;"><u>The Junior Council</u></p>
+          </center>
+        </center>
+        <div class="section-body">
+          <div class="row col-spacing">
+            <div class="col-12 col-md-6 col-lg-4">
+             <article class="card posts" style="background-color: #99ffff;">
+              <div class="card-body">
+
+                <div class="bearer" style="color: #ff1a1a;"><h4>Nixon Lobo</h4></div>
+                <div class="card-subtitle mb-2 post" style="color: #000c1a;">SE REPRESENTATIVE</div>
+                <div class="view view-ninth" style="background-color: #d7cec7;">
+                  <img src="static/stuco/images/council2/se1.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                  <div class="mask mask-1"></div>
+                  <div class="mask mask-2"></div>
+                  <div class="content">
+                    <h2>"The Powerplay"</h2>
+                    <p>
+                      <b>BRANCH</b>: SE-Mechanical<br><b>CONTACT NO</b>: 8007282680<br><b>EMAIL ID</b>: lobonixon123@gmail.com
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card posts" style="background-color: #99ffff;">
+             <div class="card-body">
+
+               <div class="bearer" style="color: #ff1a1a;"><h4>Taransingh Rajpal</h4></div>
+               <div class="card-subtitle mb-2 post" style="color: #000c1a;">SE REPRESENTATIVE</div>
+               <div class="view view-ninth" style="background-color: #d7cec7;">
+                <img src="static/stuco/images/council2/se2.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                  <h2>"Life of the Party"</h2>
+                  <p>
+                    <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 9082343049<br><b>EMAIL ID</b>: taranrajpal11@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card posts" style="background-color:#99ffff;">
+           <div class="card-body">
+
+             <div class="bearer" style="color:  #ff1a1a;"><h4>Emmanuel Pinto</h4></div>
+             <div class="card-subtitle mb-2 post" style="color: #000c1a;">SE REPRESENTATIVE</div>
+             <div class="view view-ninth" style="background-color: #d7cec7;">
+              <img src="static/stuco/images/council2/se3.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>"Remarkably Resilient"</h2>
+                <p>
+                  <b>BRANCH</b>: SE-ECS<br><b>CONTACT NO</b>: 7028690031<br><b>EMAIL ID</b>: emmanuelpinto969@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="card posts" style="background-color: #99ffff;">
+         <div class="card-body">
+
+           <div class="bearer" style="color:  #ff1a1a;"><h4>Tanisha Parkhe</h4></div>
+           <div class="card-subtitle mb-2 post" style="color: #000c1a;">LADIES REPRESENTATIVE</div>
+           <div class="view view-ninth" style="background-color: #d7cec7;">
+            <img src="static/stuco/images/council2/lr1.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+            <div class="mask mask-1"></div>
+            <div class="mask mask-2"></div>
+            <div class="content">
+              <h2>"Queen Bee"</h2>
+              <p>
+                <b>BRANCH</b>: SE-ECS<br><b>CONTACT NO</b>: 9324473394<br><b>EMAIL ID</b>: tanishajohn28@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <article class="card posts" style="background-color: #99ffff;">
+       <div class="card-body">
+
+         <div class="bearer" style="color:  #ff1a1a;"><h4>Alisha Rao</h4></div>
+         <div class="card-subtitle mb-2 post" style="color: #000c1a;">LADIES REPRESENTATIVE</div>
+         <div class="view view-ninth" style="background-color: #d7cec7;">
+          <img src="static/stuco/images/council2/lr2.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+          <div class="mask mask-1"></div>
+          <div class="mask mask-2"></div>
+          <div class="content">
+            <h2>"Diamond in the Rough"</h2>
+            <p>
+              <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 9892093890<br><b>EMAIL ID</b>: alisharao0749@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="col-12 col-md-6 col-lg-4">
+    <article class="card posts" style="background-color: #99ffff;">
+     <div class="card-body">
+
+       <div class="bearer" style="color:  #ff1a1a;"><h4>Sachi Verma</h4></div>
+       <div class="card-subtitle mb-2 post" style="color: #000c1a;">LADIES REPRESENTATIVE</div>
+       <div class="view view-ninth" style="background-color: #d7cec7;" >
+        <img src="static/stuco/images/council2/lr3.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+        <div class="mask mask-1"></div>
+        <div class="mask mask-2"></div>
+        <div class="content">
+          <h2>"OCD Personified"</h2>
+          <p>
+            <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 7506054956<br><b>EMAIL ID</b>: sachiverma00@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+  <article class="card posts" style="background-color: #99ffff;">
+   <div class="card-body">
+
+     <div class="bearer" style="color:  #ff1a1a;"><h4>Lance Soares</h4></div>
+     <div class="card-subtitle mb-2 post" style="color: #000c1a;">WEBMASTER</div>
+     <div class="view view-ninth" style="background-color: #d7cec7;">
+      <img src="static/stuco/images/council2/web.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+      <div class="mask mask-1"></div>
+      <div class="mask mask-2"></div>
+      <div class="content">
+        <h2>"The Whizzard"</h2>
+        <p>
+          <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 6355582633<br><b>EMAIL ID</b>: soareslance10@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+  <article class="card posts" style="background-color: #99ffff;">
+   <div class="card-body">
+
+    <div class="bearer" style="color: #ff1a1a;"><h4>Nicole Dias</h4></div>
+    <div class="card-subtitle mb-2 post" style="color: #000c1a;">DOCUMENTATION IN-CHARGE</div>
+    <div class="view view-ninth" style="background-color: #d7cec7;">
+      <img src="static/stuco/images/council2/doc.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+      <div class="mask mask-1"></div>
+      <div class="mask mask-2"></div>
+      <div class="content">
+        <h2>"The Boss Baby"</h2>
+        <p>
+          <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 8779460422<br><b>EMAIL ID</b>: nicole.dias210@gmail.com 
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+ <article class="card posts" style="background-color:#99ffff;">
+   <div class="card-body">
+
+     <div class="bearer" style="color:  #ff1a1a;"><h4>Yohan Mhatre</h4></div>
+     <div class="card-subtitle mb-2 post" style="color: #000c1a;">MEDIA INCHARGE</div>
+     <div class="view view-ninth" style=" background-color: #d7cec7;">
+      <img src="static/stuco/images/council2/med.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+      <div class="mask mask-1"></div>
+      <div class="mask mask-2"></div>
+      <div class="content">
+        <h2>"Papparazzi"</h2>
+        <p>
+          <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 9820668844<br><b>EMAIL ID</b>: yohanmhatre2001@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-4" style="margin-left: auto; margin-right: auto;">
+ <article class="card posts" style="background-color:#99ffff;">
+   <div class="card-body">
+
+     <div class="bearer" style="color:  #ff1a1a;"><h4>Upmanyu Jha</h4></div>
+     <div class="card-subtitle mb-2 post" style="color: #000c1a;">ASSISTANT DESIGN HEAD</div>
+     <div class="view view-ninth" style="background-color: #d7cec7;">
+      <img src="static/stuco/images/council2/desasst.jpg" style="height: 200px; margin-left: auto; margin-right: auto;"/>
+      <div class="mask mask-1"></div>
+      <div class="mask mask-2"></div>
+      <div class="content">
+        <h2>"Suffering from Success"</h2>
+        <p>
+          <b>BRANCH</b>: SE-Computers<br><b>CONTACT NO</b>: 7303969321<br><b>EMAIL ID</b>: masterupmanyu001@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+</div>
+</div>
+</div>
+</div>
+
+<br><br id="contact"><br>
+<!--
+<p id="cul"></p>
+</section>
+</div>
+<br>
+<hr>
+<br><br>
+
+<section class="padding bg-grey" style=" margin-left: 0px;">
+  <div class="container" style=" margin-right: auto; margin-left: auto;">
+
+    <h3 class="phead section-title text-center" style="font-size: min(5vw,40px); margin-bottom: 20px;"><b>Cultural Activities</b></h3>
+    <p class="bearer section-lead text-center" style="margin-top: 15px; font-size: min(4vw,26px);">For all the artists in an engineering college</p>
+    <br><hr>
+    <br>
+    <div class="row text-center" style="margin: 0 auto;  margin-left: 0px;">
+
+      <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+        <div class="view view-fifth" style="background-color: #d7cec7;">
+          <img src="static/stuco/images/hu.jpg" style="height: 200px; margin-right: auto; margin-left: auto;"/>
+          <div class="mask">
+            <h2>Humans of Crce</h2>
+            <p>A Tribute to those who just wouldnt give up...</p>
+            <a href="https://www.instagram.com/p/B2gxk1nnSbg/?igshid=p26tndx1gdaz" class="info" target="_blank">More Info</a>
+          </div>
+        </div>
+        <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Humans of CRCE</b></h3>
+        <p class="section-lead text-center text-muted"><br></p>
+
+      </div>
+      <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+        <div class="view view-fifth"style="background-color: #d7cec7;">
+          <img src="static/stuco/images/crmd.jpg" style="height: 200px; margin-right: auto; margin-left: auto;"/>
+          <div class="mask">
+            <h2>Crmd</h2>
+            <p>The National Level Debate only for the Best of Speakers</p>
+            <a href="https://www.instagram.com/p/B3EwUXgn68J/?igshid=1lptsorakrwgb" class="info" target="_blank">More Info</a>
+          </div>
+        </div>
+        <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>CRMD '19</b></h3>
+        <p class="section-lead text-center text-muted"><br></p>
+
+      </div>
+      <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+        <div class="view view-fifth"style="background-color: #d7cec7;">
+          <img src="static/stuco/images/fp.jpg" style="height: 200px; margin-right: auto; margin-left: auto;"/>
+          <div class="mask">
+            <h2>Freshers Party</h2>
+            <p>Welcoming the budding and aspiring engineers to the CRCE family</p>
+            <a href="https://www.instagram.com/p/B2T-zaLH21Z/?igshid=1a15feiiwxw7e" class="info" target="_blank">More Info</a>
+          </div>
+        </div>
+        <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Freshers '19</b></h3>
+        <p class="section-lead text-center text-muted"><br></p>
+
+      </div>
+      <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+        <div class="view view-fifth"style="background-color: #d7cec7;">
+          <img src="static/stuco/images/fd.jpg" style="height: 200px; margin-right: auto; margin-left: auto;"/>
+          <div class="mask">
+            <h2>Friendship Day</h2>
+            <p>A celebrations of the people who become closer than family in the 4 years of Engineering</p>
+            <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTg2OTE1MDIxMjY3Mjgx?igshid=11a8r7p941pp9&story_media_id=2097370730430619550_1473805064" class="info" target="_blank">More Info</a>
+          </div>
+        </div>
+        <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Friendship Day</b></h3>
+        <p class="section-lead text-center text-muted"><br></p>
+
+      </div>
+      <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+        <div class="view view-fifth"style="background-color: #d7cec7;">
+          <img src="static/stuco/images/yd.jpg" style="height: 200px; margin-right: auto; margin-left: auto;"/>
+          <div class="mask">
+            <h2>Yoga Day</h2>
+            <p>The pround showcase of our heritage and athletisism.</p>
+            <a href="https://www.instagram.com/p/BykLSvune9_/?igshid=1rtopx5h0zgax" class="info" target="_blank">More Info</a>
+          </div>
+        </div>
+        <br> <br><h3 class="section-title text-center" style="font-size: min(5.5vw,30px);;"><b>Yoga Day</b></h3>
+        <p class="section-lead text-center text-muted"><br></p>
+      </div>
+    </div>
+    <br id="tech">
+  </section>
+  
+  <hr>
+  <br>
+  <section class="padding bg-grey" style=" margin-left: 0px;">
+    <div class="container"  style=" margin-right: auto; margin-left: auto;">
+      <h4 class="phead section-title text-center" style="font-size: min(5vw,40px); margin-bottom: 20px;"><b>Technical Activities</b></h4>
+      <p class="bearer section-lead text-center" style="margin-top: 15px; font-size: min(4vw,26px)">The Great Growling Engine of Change</p>
+      <br><hr>
+      <br>
+      <div class="row text-center">
+        <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+          <div class="view view-fifth"style="background-color: #d7cec7;">
+            <img src="static/stuco/images/hck.jpg" style="height: 200px;"/>
+            <div class="mask">
+              <h2>Synergy Hackathon</h2>
+              <p>The Biggest Coding Competition in the College for every techie out there.</p>
+              <a href="https://www.instagram.com/p/B1310EOnkKm/?igshid=3tlpf2pmkjcb" class="info" target="_blank">More Info</a>
+            </div>
+          </div>
+          <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Synergy Hackathon</b></h3>
+          <p class="section-lead text-center text-muted"><br></p>
+
+        </div>
+      </div>
+      <br id="sport">
+    </section>
+    
+
+    <section class="padding bg-grey" style=" margin-left: 0px;">
+      <div class="container"  style=" margin-right: auto; margin-left: auto;">
+        <hr>
+        <br>
+        <h4 class="phead section-title text-center" style="font-size: min(5vw,40px); margin-bottom: 20px;"><b>Sports Activities</b></h4>
+        <p class="bearer section-lead text-center" style="margin-top: 15px;font-size: min(4vw,26px)">Who said engineers only study?</p>
+        <br><hr>
+        <br>
+        <div class="row text-center" style="margin: 0 auto;">
+          <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+            <div class="view view-fifth"style="background-color: #d7cec7;">
+              <img src="static/stuco/images/tt.jpg" style="height: 200px;"/>
+              <div class="mask">
+                <h2>Table Tennis</h2>
+                <p>Or as engineers call it, "Beer Pong without the Alcohol..."</p>
+                <a href="https://www.instagram.com/p/B2HLyBNHXIc/?igshid=1nd6ectcip168" class="info" target="_blank">More Info</a>
+              </div>
+            </div>
+            <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Intra Table Tennis</b></h3>
+            <p class="section-lead text-center text-muted"><br></p>
+
+          </div>
+
+          <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+            <div class="view view-fifth"style="background-color: #d7cec7;">
+              <img src="static/stuco/images/bad.jpg" style="height: 200px;"/>
+              <div class="mask">
+                <h2>Badminton</h2>
+                <p>Applying Projectile Motion to the fullest.</p>
+                <a href="https://www.instagram.com/p/B1ELPy3nDQr/?igshid=a9g1zcai0kg3" class="info" target="_blank">More Info</a>
+              </div>
+            </div>
+            <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Intra Badminton</b></h3>
+            <p class="section-lead text-center text-muted"><br></p>
+
+          </div>
+          <div class="col-sm-4 col-xs-4" style=" margin-right: auto; margin-left: auto;">
+            <div class="view view-fifth"style="background-color: #d7cec7;">
+              <img src="static/stuco/images/foot.jpg" style="height: 200px;"/>
+              <div class="mask">
+                <h2>Football</h2>
+                <p>There is no better feeling than scoring the last-minute winner in the rain.</p>
+                <a href="https://www.instagram.com/p/Bz2GbYkHtez/?igshid=155q9gp7hwdib" class="info" target="_blank">More Info</a>
+              </div>
+            </div>
+            <br> <br><h3 class="section-title text-center" style="font-size: min(5vw,30px);"><b>Intra Football</b></h3>
+            <p class="section-lead text-center text-muted"><br></p>
+
+          </div>
+        </div><br id="contact">
+      </section>
+    </div>
+
+    -->
+    <section name="contact" style="background-color: #000c1a; height: auto; padding-top: 30px; padding-bottom: 30px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center" style="margin-bottom: 20px;">
+            <h3 class="section-heading" style="color: white; font-size: 44px;"><b>Contact Us</b></h3><hr style="background-color: white;">
+            <h3 class="section-subheading text-muted" style="color: white;  font-size: min(5vw,25px); "><center>Follow us on all platforms!</center></h3><br>
+            <div class="row text-center" style="margin: 0 auto;">
+
+              <div class="col-sm-4 col-xs-4">
+
+                <a href="https://www.facebook.com/frcrce.studentscouncil" target="blank">
+                  <img border="0" alt="Facebook" target="blank" src="static/stuco/images/fb.png" width="20%" height="90%">
+                </a>
+              </div>
+              <div class="col-sm-4 col-xs-4">
+
+               <a href="https://www.youtube.com/channel/UCVXm63qDorgkAXRIEh7XLjA" target="blank">
+                <img border="0" alt="Youtube" target="blank" src="static/stuco/images/yt.png" width="20%" height="90%">
+              </a>
+
+            </div>
+            <div class="col-sm-4 col-xs-4">
+
+              <a href="https://instagram.com/frcrce_official?igshid=1xzzfigzk6x4l" target="blank">
+                <img border="0" alt="Instragram" target="blank" src="static/stuco/images/ig.png" width="20%" height="90%">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-4" style=" margin-right: auto; margin-left: auto;">
+          <h5 class="abt" style="font-size: min(5vw,25px); color: white;"><center>Drop us a mail at: <br><br><strong><a href="mailto:studentscouncilcrce@gmail.com">studentscouncilcrce@gmail.com</a></strong><center><br></h5>
+            
+          </div>
+          
+          <div class="col-12 col-md-4" style=" margin-right: auto; margin-left: auto;">
+            <h2 class=" bearer" style="font-size: min(6vw,40px); color: white;"><center><b><u>OR</center></u></b><br></h2>  
+          </div>
+
+          <div class="col-12 col-md-4" style=" margin-right: auto; margin-left: auto;">
+            <h3 style="color: white;"><center>Write to Us Directly:</center></h3><br>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/studentscouncilfrcrce@gmail.com" method="post" style="border-width: 1px;">
+              <fieldset id="fs-frm-inputs">
+                <label for="full-name" class="phead" style="color: white; font-size: 15px;">Full Name:</label><br>
+                <input type="text" name="name" id="full-name" placeholder="Your Name" required="" style="width: 80%; font-family: times;"><br><br>
+
+                <label for="email-address" class="phead" style="color: white; font-size: 15px;">Email Address:</label><br>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld." required="" style="width: 80%; font-family: times;"><br><br>
+
+                <label for="message" class="phead" style="color: white; font-size: 15px;">Message:</label><br>
+                <textarea rows="5" cols="40" style="max-width: 100%; font-family: times;" name="message" id="message" placeholder="Your Message." required=""></textarea><br><br>
+
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </fieldset>
+              <center><input type="submit" value="Submit" class="phead" style="color: black; font-size: 15px;"></center>
+            </form>
+          </div>
+        </div>
+        <br>
+        <div class="container">
+          <figure><center>
+            <img src="static/stuco/images/logo.jpg" width="60px;" alt="Logo">
+          </center></figure>
+          <p>
+            <center style="color: white; font-size: min(4vw, 24px);">COPYRIGHT &copy; STUDENTS' COUNCIL 2020-21</center> <br><center><h3 style="font-size: min(3vw,15px); color: white;">DESIGNED AND DEVELOPED BY       LANCE SOARES</h3></center>
+          </p>
+        </div>
+      </section>
+
+
+    </body>
+
+    </html>
